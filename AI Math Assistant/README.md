@@ -4,11 +4,17 @@
 1. ollama
 2. python (hands on knowledge)
 
-## Libraries to install
-> pip install -U langchain-ollama
+## Ollama dependencies
+> Download ollama from https://ollama.com/download/windows
 
 > ollama serve
 
 > ollama run <model_name>
 
+## Python dependencies 
 
+> pip install -U langchain-ollama
+
+> pip install fastapi uvicorn 
+
+> pip install pydantic
